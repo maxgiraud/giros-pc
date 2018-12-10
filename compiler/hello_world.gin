@@ -1,0 +1,23 @@
+
+ld rb,$assign
+
+ld ro,$welcome
+
+loop: @
+    add ra
+    str ra,$var
+
+    ld ro,$endl
+    ld ro,$text
+
+    ld ro,$apost
+    ld ro,$var
+    ld ro,$apost
+jmp $loop
+
+welcome:    "\n GirOS | 8 bit CPU | 64 kB RAM\n"
+text:       " Hello world !! - Character test : "
+apost:      "'"
+endl:       0a
+assign:     01
+var:        00

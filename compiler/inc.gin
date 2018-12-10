@@ -1,0 +1,17 @@
+
+ld rb,$nb
+
+inc: @
+    add ra
+    mov ra,ro
+jc  $dec
+jmp $inc
+
+dec: @
+    sub ra
+    mov ra,ro
+jz  $inc
+jmp $dec
+
+nb: 01
+ok: "OK  \n"
