@@ -10,12 +10,14 @@ Simulation and conception of an 8 bit programmable computer featuring :
 
 ## Simulation
 
-A working simulation made with logisim can be found in this project just launch simu.circ with logisim
+A working simulation made with logisim can be found in this project just launch simu.circ with logisim.
+Populate RAM memory with a program (for example compiler/hello_world.bin) and run.
 
+![alt text](https://github.com/maxgiraud/giros-pc/blob/master/simu/screenshot_simu.png)
 
 ## Conception
 
-This project will be for the moment realised on breadboards, at this time the clock module, 2 register, the ALU and the output register controlling 7-segments displays have been made.
+This project will be for the moment realised on breadboards, at this time the clock module, 2 registers, the ALU and the output register controlling 7-segments displays have been made.
 
 
 ### Decoder
